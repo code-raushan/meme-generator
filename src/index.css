@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: red;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Nav{
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #424141;
+}
+.header-div{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+img[alt="header-img"]{
+    width: 25px;
+}
+.Nav h4{
+    color: white;
+    padding: 10px;
+}
+.container{
+  margin: 10px 300px;
+  padding: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.img-container{
+  height: 350px;
+  width: 450px;
+}
+.input-div{
+  margin-top: 10px;
+  display: flex;
+  gap: 25px;
+}
+.input-div input{
+  padding: 7px 20px;
+
+  outline: none;
+}
+.image-div{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.meme-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.meme-uppertext{
+  font-size: 20px;
+  position: absolute;
+  top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(49, 45, 45);
+  text-transform: capitalize;
+
+}
+.meme-img-div{
+  min-height: 100%;
+  min-width:  100%;
+}
+.meme-img{
+  height: 100%;
+  width:  100%;
+}
+
+.meme-lowertext{
+  font-size: 20px;
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(61, 58, 58);
+  text-transform: capitalize;
+}
+.meme-img-btn{
+  padding: 10px 10px;
+  color: white;
+  background-color: #424141;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
