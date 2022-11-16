@@ -7,7 +7,7 @@ const Image = ({text, imageURL}) => {
             <h2>{text.uppertext}</h2>
         </div>
         <div className='meme-img-div'>
-            <img src={imageURL} className="meme-img" alt="meme" />
+            <img src={imageURL} className="meme-img" alt="meme"/>
         </div>
         <div className='meme-lowertext'>
             <h2>{text.lowertext}</h2>
