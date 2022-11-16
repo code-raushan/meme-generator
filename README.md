@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+## This is how the project looks:
+![meme-generator](screencapture-localhost-3000-2022-11-16-12_03_45.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
